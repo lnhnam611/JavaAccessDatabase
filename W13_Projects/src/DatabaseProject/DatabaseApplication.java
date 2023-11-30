@@ -10,6 +10,7 @@ public class DatabaseApplication {
 		Connection conn = null;
 		Statement statement = null;
 		ResultSet result = null;
+		method();
 		
 		try
 		{
@@ -66,4 +67,7 @@ public class DatabaseApplication {
 		}
 	}
 
+	public static void method() {
+		System.out.println("This is a second commit");
+	}
 }
